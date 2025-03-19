@@ -211,7 +211,7 @@ def load_image(image_path):
     return encoded_string
 
 def add_logo():
-    image_path = "/Users/abhishekkumbhar/Documents/RAMMSI_Data/streamlit_project/images/logo.png"  
+    image_path = "images/logo.png"  
     encoded_image = load_image(image_path)
     
     st.sidebar.markdown(f"""
